@@ -1,0 +1,129 @@
+@media screen and (max-width: 1440px) {
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: hsl(233, 47%, 7%);
+        height: 100vh;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+}
+    
+/* .img {
+    position: relative;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        /* background: hsla(277, 86%, 31%, 0.493); */
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0 6px 6px 0;
+    }
+} */
+
+    .container {
+        display: grid;
+        margin: 12.5em 20em;
+        width: 1160px;
+        height: auto;
+        border-radius: 25px;
+        grid-template-columns: repeat(2, 1fr);
+        background-image: url(./images/image-header-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        box-sizing: border-box;
+    }
+    .col-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: rgba(95, 11, 147, 0.493);
+    }
+    .bg-color {
+        padding: 2rem 3rem;
+        background-color: hsl(244, 38%, 16%);
+        height: 50vh;
+        width: 60%;
+        position: relative;
+    }
+    
+    .layer {
+        width: 1000px;
+        
+    }
+    
+    .header-text {
+        font-size: 1rem;
+        font-family: Nexa Bold;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        text-align: left;
+        padding: 50px;
+    }
+    
+    .color-change { 
+        color: hsl(277, 64%, 61%);
+    }
+    .sub-text {
+        font-size: 0.7rem;
+        font-family: Nexa Light;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.75);
+        text-align: left;
+        line-height: 20px;
+    }
+    
+    .stats {
+        display: flex;
+        color: hsla(0, 0%, 100%, 1.75);
+            }
+        .stat {
+            margin-right: 4rem;
+            color: #fff;
+            }
+            h3 {
+                margin-bottom: 7px;
+            }
+            p {
+                text-transform: uppercase;
+                color: hsla(0, 0%, 100%, 0.6);
+                font-size: 10px;
+                letter-spacing: 1.4px;
+            }
+        }
+    
+        .stat-3 {
+            text-transform: uppercase;
+        }
+    }
+    }
+
+    
+    
+    .attribution {
+        display: none;
+        color: #fff;
+        padding: 0;
+        margin-top: 0.3rem;
+        margin-left: 6rem;}
+    
+    a {
+        display: none;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 2rem;
+    }
+}
