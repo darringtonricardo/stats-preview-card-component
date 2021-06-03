@@ -29,8 +29,8 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Family: Nexa Bold
 - Weights: 400, 700
 
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Family: Nexa Light
 - Weights: 400
